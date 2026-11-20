@@ -1,8 +1,9 @@
-public class Node {
-    public int data;
+public class Node{
+    public Passenger data;
     public Node next;
-    public Node(int data){
+
+    public Node(Passenger data){
         this.data = data;
-        this.next = null;
+        this.next =null;
     }
 }
