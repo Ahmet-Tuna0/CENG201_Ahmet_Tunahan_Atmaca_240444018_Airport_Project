@@ -58,9 +58,10 @@ public class Passenger {
     // Readable passenger information for the output
     @Override
     public String toString(){
-        return "Passenger ID: " + passengerId +
-                "Name: " + name +
-                "Flight Number: " + flightNumber +
-                "Boarding Group: " + boardingGroup;
+        return "  Passenger ID: " + passengerId +
+                "  Name: " + name +
+                "  Flight Number: " + flightNumber +
+                " Ticket Class: " + ticketClass +
+                "  Boarding Group: " + boardingGroup;
     }
                                                                                                             }

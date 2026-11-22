@@ -1,7 +1,7 @@
 public class PassengerList {
     private Node head;
 
-    private PassengerList(){
+    public PassengerList(){
         this.head = null;
     }
 
@@ -56,7 +56,7 @@ public class PassengerList {
     }
 
     // This method prints the passenger list.
-    public void preintList(){
+    public void printList(){
         if(head == null){
             System.out.println("Passenger list is empty !! ");
         }
